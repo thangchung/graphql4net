@@ -15,7 +15,7 @@
         public dynamic Execute(Schema schema, string query, dynamic root = null,
             Inputs inputs = null, string operationName = "")
         {
-            throw new System.NotImplementedException();
+            return string.Empty;
         }
     }
 }

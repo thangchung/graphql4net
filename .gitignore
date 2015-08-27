@@ -195,6 +195,7 @@ FakesAssemblies/
 # Visual Studio 6 workspace options file
 *.opt
 
+artifacts
 src/GraphQL4Net/bin
 src/GraphQL4Net/obj
 src/GraphQL4Net/*.log

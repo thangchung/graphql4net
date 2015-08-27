@@ -1,0 +1,20 @@
+﻿{
+  "version": "1.0.0-*",
+  "description": "GraphQL4Net Class Library",
+  "authors": [ "thangchung" ],
+  "tags": [ "graphql", "dotnet", "graphql4net" ],
+  "projectUrl": "https://github.com/thangchung/magazine-website",
+  "licenseUrl": "",
+
+  "dependencies": {
+    "System.Linq": "4.0.0-beta-23019",
+    "System.Threading": "4.0.10-beta-23019",
+    "System.Runtime": "4.0.10-beta-23019",
+    "Microsoft.CSharp": "4.0.0-beta-23019"
+  },
+
+  "frameworks": {
+    "dnx451": { },
+    "dnxcore50": { }
+  }
+}
