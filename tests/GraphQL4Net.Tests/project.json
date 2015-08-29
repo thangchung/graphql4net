@@ -1,27 +1,27 @@
 {
-  "version": "1.0.0-*",
-  "description": "GraphQL4Net.Tests Class Library",
-  "authors": [ "thangchung" ],
-  "tags": [ "graphql", "dotnet", "graphql4net" ],
-  "projectUrl": "https://github.com/thangchung/magazine-website",
-  "licenseUrl": "",
+    "version": "1.0.0-*",
+    "description": "GraphQL4Net.Tests Class Library",
+    "authors": [ "thangchung" ],
+    "tags": [ "graphql", "dotnet", "graphql4net" ],
+    "projectUrl": "https://github.com/thangchung/magazine-website",
+    "licenseUrl": "",
 
-  "dependencies": {
-    "System.Linq": "4.0.0-beta-23019",
-    "System.Threading": "4.0.10-beta-23019",
-    "System.Runtime": "4.0.10-beta-23019",
-    "Microsoft.CSharp": "4.0.0-beta-23019",
-    "xunit": "2.1.0-beta4-*",
-    "xunit.runner.dnx": "2.1.0-beta4-*",
-    "GraphQL4Net": "1.0.0-*"
-  },
+    "dependencies": {
+        "System.Linq": "4.0.1-beta-23224",
+        "System.Threading": "4.0.10-beta-23224",
+        "System.Runtime": "4.0.10-beta-23224",
+        "Microsoft.CSharp": "4.0.1-beta-23224",
+        "xunit": "2.1.0-beta4-build3109",
+        "xunit.runner.dnx": "2.1.0-beta4-build3109",
+        "GraphQL4Net": "1.0.0-*"
+    },
 
-  "commands": {
-    "test": "xunit.runner.dnx"
-  },
+    "commands": {
+        "test": "xunit.runner.dnx"
+    },
 
-  "frameworks": {
-    "dnx451": { },
-    "dnxcore50": { }
-  }
+    "frameworks": {
+        "dnx451": { },
+        "dnxcore50": { }
+    }
 }

@@ -1,4 +1,4 @@
-﻿{
+{
   "version": "1.0.0-*",
   "description": "GraphQL4Net Class Library",
   "authors": [ "thangchung" ],
@@ -7,14 +7,15 @@
   "licenseUrl": "",
 
   "dependencies": {
-    "System.Linq": "4.0.0-beta-23019",
-    "System.Threading": "4.0.10-beta-23019",
-    "System.Runtime": "4.0.10-beta-23019",
-    "Microsoft.CSharp": "4.0.0-beta-23019"
+    "System.Linq": "4.0.1-beta-23224",
+    "System.Threading": "4.0.10-beta-23224",
+    "System.Runtime": "4.0.10-beta-23224",
+    "Microsoft.CSharp": "4.0.1-beta-23224",
+    "System.Text.RegularExpressions": "4.0.11-beta-23224"
   },
 
   "frameworks": {
-    "dnx451": { },
-    "dnxcore50": { }
+    "dotnet": {
+    }
   }
 }

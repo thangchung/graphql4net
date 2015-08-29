@@ -1,4 +1,4 @@
-﻿using System; 
+﻿using GraphQL4Net;
 using Xunit;
 
 namespace GraphQL4Net.Tests
