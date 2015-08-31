@@ -4,17 +4,17 @@ namespace GraphQL4Net
 {
     public interface IGraphQL
     {
-        dynamic Execute(
+        object Execute(
             Schema schema, 
             string query, 
-            dynamic root = null, 
+            object root = null, 
             Inputs inputs = null, 
             string operationName = "");
     }
 
     public class GraphQL : IGraphQL
     {
-        public dynamic Execute(Schema schema, string query, dynamic root = null,
+        public object Execute(Schema schema, string query, object root = null,
             Inputs inputs = null, string operationName = "")
         {
             var source = new Source(query ?? "", "GraphQL Request");

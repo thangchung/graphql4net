@@ -1,5 +1,4 @@
-﻿using GraphQL4Net;
-using Xunit;
+﻿using Xunit;
 
 namespace GraphQL4Net.Tests
 {
@@ -9,7 +8,7 @@ namespace GraphQL4Net.Tests
 
         public GraphQLTestCase()
         {
-            _graphQL= new GraphQL();
+            _graphQL = new GraphQL();
         }
 
         [Fact]
@@ -20,7 +19,7 @@ namespace GraphQL4Net.Tests
 
             var result = _graphQL.Execute(schema, query);
 
-            Assert.Empty(result);
+            Assert.NotNull(result);
         }
     }
 }
